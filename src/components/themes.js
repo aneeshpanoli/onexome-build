@@ -1,8 +1,9 @@
 
 
 
-export const mainPalette = {
-    palette: {
+export default function mainPalette(){
+  return(
+      {
         primary: {
           light: '#757ce8',
           main: '#3f50b5',
@@ -15,5 +16,6 @@ export const mainPalette = {
           dark: '#ba000d',
           contrastText: '#000',
         },
-      },
+      }
+    );
 }
